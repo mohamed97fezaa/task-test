@@ -1,0 +1,84 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header a {
+    background-color: #0070f3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .taskList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .taskItem {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .taskItem h2 {
+    margin: 0;
+  }
+  
+  .taskItem p {
+    margin: 5px 0;
+  }
+  
+  .taskActions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .taskActions a,
+  .taskActions button {
+    background-color: #0070f3;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .taskActions button {
+    background-color: #e00;
+  }
+  
+  .status {
+    font-weight: bold;
+  }
+  
+  .status.pending {
+    color: yellow;
+  }
+  
+  .status.in_progress {
+    color: blue;
+  }
+  
+  .status.done {
+    color: green;
+  }
+  
